@@ -11,9 +11,9 @@ public class Browser {
      WebDriver driver = new ChromeDriver();
      return driver;
  }
- public static WebDriver launchEdge()
+ public static WebDriver launchSafari()
  {
-	 System.setProperty("webdriver.msedge.driver", "C:\\Users\\Nikhil\\Desktop\\Bharti Testing\\Automation Testing\\edgedriver_arm64\\msedgedriver.exe");
+	 System.setProperty("webdriver.safari.driver", "C:\\Users\\Nikhil\\Desktop\\Bharti Testing\\Automation Testing\\safaridriver_arm64\\safaridriver.exe");
      WebDriver driver = new EdgeDriver();
      return driver;
  }
