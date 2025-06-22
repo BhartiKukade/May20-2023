@@ -63,7 +63,11 @@ public class TestClass1 {
 	{
 		System.out.println("TestD");
 	}
-	
+	@Test
+	public void test5()
+	{
+		System.out.println("TestE");
+	}
 	
 	
 	@AfterMethod
